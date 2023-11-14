@@ -6,7 +6,7 @@ import HeroImage from './hero.jpg';
 const Features = () => {
   return (
     <div>
-      <div className="mx-auto max-w-7xl mt-24 sm:mt-32 lg:mt-32">
+      <div className="mx-auto max-w-7xl mt-24 sm:mt-32 lg:mt-32 px-6 sm:px-0">
         <div className="max-w-2xl mx-auto lg:max-w-none">
           <div className="max-w-2xl" style={{ opacity: 1, transform: 'none' }}>
             <h2><span className="block font-display tracking-tight [text-wrap:balance] text-4xl font-medium sm:text-[40px] text-gray-950">Features for any use case</span></h2>
@@ -20,8 +20,8 @@ const Features = () => {
       <div className="mx-auto max-w-7xl px-6 lg:px-8 mt-16 overflow-x-hidden">
           <div className="max-w-2xl mx-auto lg:max-w-none">
             <div className="lg:flex lg:items-center lg:justify-end">
-              <div className="flex justify-center lg:w-1/2 lg:justify-end lg:pr-12">
-                <div className="w-[33.75rem] flex-none lg:w-[45rem] lg:pr-8" style={{ opacity: 1, transform: 'none' }}>
+              <div className="flex justify-center flex-col sm:flex-row lg:w-1/2 lg:justify-end lg:pr-12">
+                <div className="w-[33.75rem] flex-none lg:w-[45rem] lg:pr-8 pr-36" style={{ opacity: 1, transform: 'none' }}>
                   <div className="justify-center w-full lg:justify-end relative flex aspect-[719/680] grayscale">
                     <svg viewBox="0 0 655 680" fill="none" className="h-full">
                       <g clipPath="url(#:S1:-clip)" className="group">
