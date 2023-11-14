@@ -22,8 +22,8 @@ const MainContent = () => {
             <div className="hidden lg:block lg:ml-12">
               <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-gvpo4SWgG8?si=8n5wIAdTZA7PCgZb&amp;controls=0" title="Unkey in Five minutes - YouTube" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen={true}></iframe>
             </div>
-            <div className="mt-4 mx-auto border-2 border-red-500 aspect-w-16 aspect-h-9 lg:hidden">
-              <iframe width="360" height="225"  src="https://www.youtube-nocookie.com/embed/-gvpo4SWgG8?si=8n5wIAdTZA7PCgZb" title="Unkey in Five minutes - YouTube" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen={true}></iframe>
+            <div className="mt-4 mx-auto aspect-w-16 aspect-h-9 lg:hidden">
+              <iframe width="320" height="180"  src="https://www.youtube-nocookie.com/embed/-gvpo4SWgG8?si=8n5wIAdTZA7PCgZb" title="Unkey in Five minutes - YouTube" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen={true}></iframe>
             </div>
           </div>
         </div>
